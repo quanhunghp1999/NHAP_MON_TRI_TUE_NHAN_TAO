@@ -52,14 +52,52 @@ By default display is set to True (1) and number of mazes is set to 1. To run vi
 * maze_file: filename of csv maze in /mazes. (default maze_1.csv)
 
 ## Structure
+## Structure
+
+```text
+NHAP_MON_TRI_TUE_NHAN_TAO/
+│
+├── files/
+├── mazes/
+├── mazes_solutions/
+│
+├── main-interface.PNG
+├── user-player.PNG
+├── AI-mode-DFS.PNG
+├── AI-mode-A-star.PNG
+├── comparison-log.PNG
+│
+├── aStar_pathfinder.py
+├── helper_aStar.py
+├── dfs_pathfinder.py
+├── bfs_pathfinder.py
+├── maze_generator.py
+├── visualize.py
+│
+├── maze_game.py
+├── run_game.bat
+├── README_MAZE_QUEST.md
+├── requirements.txt
+└── README.md
 ```
---- /mazes
-      |__ ...
---- / mazes_solutions
-      |__ ...
---- aStar_pathfinder.py
---- helper_aStar.py
---- dfs_pathfinder.py
---- bfs_pathfinder.py
---- maze_generator.py
-```
+## Application Screenshots
+
+### 1. Main Interface
+
+![Main Interface](./main-interface.PNG)
+
+### 2. User Player Mode
+
+![User Player Mode](./user-player.PNG)
+
+### 3. AI Solver - DFS
+
+![AI Solver DFS](./AI-mode-DFS.PNG)
+
+### 4. AI Solver - A*
+
+![AI Solver A Star](./AI-mode-A-star.PNG)
+
+### 5. Algorithm Comparison
+
+![Algorithm Comparison](./comparison-log.PNG)
